@@ -1,54 +1,33 @@
-import React, {Componet} from "react";
-
-/* class App extends Componet {
-  render() { */
-  /*   return (
-      <h1>
-        Hello World.
-      </h1>
-    ); */
-
-    /* const greeting = "Hi, Tom !";
-    const dom = <h1 classname="foo">{greeting}</h1>
-    return dom; */
-
-  /*   return (
-      <div>
-        <label htmlFor="bar">bar</label>
-        <input type="text" onClick={() => {console.log("I'm clicking now !")}} />
-      </div>
-    ); */
-
-    //babel repl -> JSXをJSに変換後のコードが見れる
-
-/*     return (
-      <React.Fragment>
-        <label htmlFor="bar">bar</label>
-        <input type="text" onClick={() => {console.log("I'm clicking now !")}} />
-      </React.Fragment>
-    );
-  }
-} */
+import React from "react";
 
 const App = () => {
+  const profiles = [
+    { name: "Taro", age: 10 },
+    { name: "Hanako", age: 5 },
+    { name: "NoName" }
+  ]
+  
   return (
   <div>
-    Hi!
-    <Cat />
-    <Cat />
-    <Cat />
-    <Cat />
-    <Cat />
+    {
+      profiles.map((profile, index) => {
+        return <User name={profile.name} age={profile.age} key={index} />
+      })
+    }
   </div>
   ) 
 }
 
-const Cat = () => {
+const User = (props) => {
   return (
     <div>
-      Meow!
+      Hi, I'm {props.name}!, and {props.age} years old!
     </div>
   )
+}
+
+User.defaultProps = {
+  age: 1
 }
 
 export default App;
