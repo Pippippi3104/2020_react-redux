@@ -18,6 +18,8 @@ function App() {
     </div>
   ); */
 
+  //babel repl -> JSXをJSに変換後のコードが見れる
+
   return (
     <React.Fragment>
       <label htmlFor="bar">bar</label>
