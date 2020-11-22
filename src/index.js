@@ -7,7 +7,7 @@ import './index.css';
 import reducer from "./reducers";
 
 import App from './component/App';
-import registerServiceWorker from './registerServiceWorker';
+import reportWebVitals from './reportWebVitals';
 
 const store = createStore( reducer );
 
@@ -18,4 +18,4 @@ ReactDOM.render(
   , document.getElementById("root")
 );
 
-registerServiceWorker();
+reportWebVitals();
