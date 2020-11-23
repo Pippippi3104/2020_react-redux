@@ -1,0 +1,297 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+ width="1200px" height="951px"
+ viewBox="0 0 1200 951"
+ xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
+ stroke-width="1" text-rendering="geometricPrecision">
+<polygon fill="white" points="183,7 215,7 215,16 183,16"/>
+<text x="200" y="16" textLength="31" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+Client
+</text>
+<polygon fill="white" points="172,18 226,18 226,27 172,27"/>
+<text x="200" y="27" textLength="52" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+(Browser)
+</text>
+<polygon fill="white" points="553,7 645,7 645,16 553,16"/>
+<text x="600" y="16" textLength="91" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+Static File Server
+</text>
+<polygon fill="white" points="571,18 627,18 627,27 571,27"/>
+<text x="600" y="27" textLength="55" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+(Firebase)
+</text>
+<polygon fill="white" points="969,7 1029,7 1029,16 969,16"/>
+<text x="1000" y="16" textLength="58" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+API Server
+</text>
+<polygon fill="white" points="975,18 1023,18 1023,27 975,27"/>
+<text x="1000" y="27" textLength="47" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+(Heroku)
+</text>
+<line x1="200" y1="33" x2="200" y2="50" stroke="black"/>
+<line x1="600" y1="33" x2="600" y2="50" stroke="black"/>
+<line x1="1000" y1="33" x2="1000" y2="50" stroke="black"/>
+<line x1="200" y1="50" x2="200" y2="67" stroke="black"/>
+<line x1="600" y1="50" x2="600" y2="67" stroke="black"/>
+<line x1="1000" y1="50" x2="1000" y2="67" stroke="black"/>
+<line x1="200" y1="67" x2="200" y2="84" stroke="black"/>
+<line x1="600" y1="67" x2="600" y2="84" stroke="black"/>
+<line x1="1000" y1="67" x2="1000" y2="84" stroke="black"/>
+<line x1="100" y1="72" x2="1100" y2="72" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="541,68 658,68 658,77 541,77"/>
+<text x="542" y="77" textLength="115" font-family="Helvetica" font-size="12" fill="black">
+Get React application
+</text>
+<line x1="200" y1="84" x2="200" y2="101" stroke="black"/>
+<line x1="600" y1="84" x2="600" y2="101" stroke="black"/>
+<line x1="1000" y1="84" x2="1000" y2="101" stroke="black"/>
+<line x1="200" y1="101" x2="200" y2="129" stroke="black"/>
+<line x1="600" y1="101" x2="600" y2="129" stroke="black"/>
+<line x1="1000" y1="101" x2="1000" y2="129" stroke="black"/>
+<line x1="200" y1="112" x2="600" y2="112" stroke="black"/>
+<polygon fill="black" points="600,112 590,118 590,106"/>
+<polygon fill="white" points="376,102 423,102 423,111 376,111"/>
+<text x="377" y="111" textLength="45" font-family="Helvetica" font-size="12" fill="black">
+Request
+</text>
+<line x1="200" y1="129" x2="200" y2="157" stroke="black"/>
+<line x1="600" y1="129" x2="600" y2="157" stroke="black"/>
+<line x1="1000" y1="129" x2="1000" y2="157" stroke="black"/>
+<line x1="600" y1="140" x2="200" y2="140" stroke="black"/>
+<polygon fill="black" points="200,140 210,146 210,134"/>
+<polygon fill="white" points="300,130 499,130 499,139 300,139"/>
+<text x="301" y="139" textLength="197" font-family="Helvetica" font-size="12" fill="black">
+Response with Files (html,css,js,etc.)
+</text>
+<line x1="200" y1="157" x2="200" y2="174" stroke="black"/>
+<line x1="600" y1="157" x2="600" y2="174" stroke="black"/>
+<line x1="1000" y1="157" x2="1000" y2="174" stroke="black"/>
+<line x1="200" y1="174" x2="200" y2="191" stroke="black"/>
+<line x1="600" y1="174" x2="600" y2="191" stroke="black"/>
+<line x1="1000" y1="174" x2="1000" y2="191" stroke="black"/>
+<line x1="200" y1="191" x2="200" y2="208" stroke="black"/>
+<line x1="600" y1="191" x2="600" y2="208" stroke="black"/>
+<line x1="1000" y1="191" x2="1000" y2="208" stroke="black"/>
+<line x1="100" y1="196" x2="1100" y2="196" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="552,192 647,192 647,201 552,201"/>
+<text x="553" y="201" textLength="93" font-family="Helvetica" font-size="12" fill="black">
+Read All Records
+</text>
+<line x1="200" y1="208" x2="200" y2="225" stroke="black"/>
+<line x1="600" y1="208" x2="600" y2="225" stroke="black"/>
+<line x1="1000" y1="208" x2="1000" y2="225" stroke="black"/>
+<line x1="200" y1="225" x2="200" y2="253" stroke="black"/>
+<line x1="600" y1="225" x2="600" y2="253" stroke="black"/>
+<line x1="1000" y1="225" x2="1000" y2="253" stroke="black"/>
+<line x1="200" y1="236" x2="1000" y2="236" stroke="black"/>
+<polygon fill="black" points="1000,236 990,242 990,230"/>
+<polygon fill="white" points="576,226 623,226 623,235 576,235"/>
+<text x="577" y="235" textLength="45" font-family="Helvetica" font-size="12" fill="black">
+Request
+</text>
+<line x1="200" y1="253" x2="200" y2="281" stroke="black"/>
+<line x1="600" y1="253" x2="600" y2="281" stroke="black"/>
+<line x1="1000" y1="253" x2="1000" y2="281" stroke="black"/>
+<path d="M 1000 257 A200,6 0 0,1 1000,269" stroke="black" fill="none"/><path d="M 1000 259 A200,6 0 0,1 1000,271" stroke="black" fill="none"/><polygon fill="black" points="1000,270 1010,276 1010,264"/>
+<polygon fill="white" points="745,254 998,254 998,263 745,263"/>
+<text x="746" y="263" textLength="251" font-family="Helvetica" font-size="12" fill="black">
+Okay, I'll find all the records from the database.
+</text>
+<line x1="200" y1="281" x2="200" y2="309" stroke="black"/>
+<line x1="600" y1="281" x2="600" y2="309" stroke="black"/>
+<line x1="1000" y1="281" x2="1000" y2="309" stroke="black"/>
+<line x1="1000" y1="292" x2="200" y2="292" stroke="black"/>
+<polygon fill="black" points="200,292 210,298 210,286"/>
+<polygon fill="white" points="534,282 665,282 665,291 534,291"/>
+<text x="535" y="291" textLength="129" font-family="Helvetica" font-size="12" fill="black">
+Response (JSON Array)
+</text>
+<line x1="200" y1="309" x2="200" y2="326" stroke="black"/>
+<line x1="600" y1="309" x2="600" y2="326" stroke="black"/>
+<line x1="1000" y1="309" x2="1000" y2="326" stroke="black"/>
+<line x1="200" y1="326" x2="200" y2="343" stroke="black"/>
+<line x1="600" y1="326" x2="600" y2="343" stroke="black"/>
+<line x1="1000" y1="326" x2="1000" y2="343" stroke="black"/>
+<line x1="200" y1="343" x2="200" y2="360" stroke="black"/>
+<line x1="600" y1="343" x2="600" y2="360" stroke="black"/>
+<line x1="1000" y1="343" x2="1000" y2="360" stroke="black"/>
+<line x1="100" y1="348" x2="1100" y2="348" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="558,344 641,344 641,353 558,353"/>
+<text x="559" y="353" textLength="81" font-family="Helvetica" font-size="12" fill="black">
+Read a Record
+</text>
+<line x1="200" y1="360" x2="200" y2="377" stroke="black"/>
+<line x1="600" y1="360" x2="600" y2="377" stroke="black"/>
+<line x1="1000" y1="360" x2="1000" y2="377" stroke="black"/>
+<line x1="200" y1="377" x2="200" y2="405" stroke="black"/>
+<line x1="600" y1="377" x2="600" y2="405" stroke="black"/>
+<line x1="1000" y1="377" x2="1000" y2="405" stroke="black"/>
+<line x1="200" y1="388" x2="1000" y2="388" stroke="black"/>
+<polygon fill="black" points="1000,388 990,394 990,382"/>
+<polygon fill="white" points="515,378 684,378 684,387 515,387"/>
+<text x="516" y="387" textLength="167" font-family="Helvetica" font-size="12" fill="black">
+I want a record whose id is xxx.
+</text>
+<line x1="200" y1="405" x2="200" y2="433" stroke="black"/>
+<line x1="600" y1="405" x2="600" y2="433" stroke="black"/>
+<line x1="1000" y1="405" x2="1000" y2="433" stroke="black"/>
+<path d="M 1000 409 A200,6 0 0,1 1000,421" stroke="black" fill="none"/><path d="M 1000 411 A200,6 0 0,1 1000,423" stroke="black" fill="none"/><polygon fill="black" points="1000,422 1010,428 1010,416"/>
+<polygon fill="white" points="767,406 998,406 998,415 767,415"/>
+<text x="768" y="415" textLength="229" font-family="Helvetica" font-size="12" fill="black">
+Okay, I'll find the record from the database.
+</text>
+<line x1="200" y1="433" x2="200" y2="461" stroke="black"/>
+<line x1="600" y1="433" x2="600" y2="461" stroke="black"/>
+<line x1="1000" y1="433" x2="1000" y2="461" stroke="black"/>
+<line x1="1000" y1="444" x2="200" y2="444" stroke="black"/>
+<polygon fill="black" points="200,444 210,450 210,438"/>
+<polygon fill="white" points="495,434 704,434 704,443 495,443"/>
+<text x="496" y="443" textLength="207" font-family="Helvetica" font-size="12" fill="black">
+Hey, I found the record. (JSON Object)
+</text>
+<line x1="200" y1="461" x2="200" y2="478" stroke="black"/>
+<line x1="600" y1="461" x2="600" y2="478" stroke="black"/>
+<line x1="1000" y1="461" x2="1000" y2="478" stroke="black"/>
+<line x1="200" y1="478" x2="200" y2="495" stroke="black"/>
+<line x1="600" y1="478" x2="600" y2="495" stroke="black"/>
+<line x1="1000" y1="478" x2="1000" y2="495" stroke="black"/>
+<line x1="200" y1="495" x2="200" y2="512" stroke="black"/>
+<line x1="600" y1="495" x2="600" y2="512" stroke="black"/>
+<line x1="1000" y1="495" x2="1000" y2="512" stroke="black"/>
+<line x1="100" y1="500" x2="1100" y2="500" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="554,496 644,496 644,505 554,505"/>
+<text x="555" y="505" textLength="88" font-family="Helvetica" font-size="12" fill="black">
+Create a Record
+</text>
+<line x1="200" y1="512" x2="200" y2="529" stroke="black"/>
+<line x1="600" y1="512" x2="600" y2="529" stroke="black"/>
+<line x1="1000" y1="512" x2="1000" y2="529" stroke="black"/>
+<line x1="200" y1="529" x2="200" y2="557" stroke="black"/>
+<line x1="600" y1="529" x2="600" y2="557" stroke="black"/>
+<line x1="1000" y1="529" x2="1000" y2="557" stroke="black"/>
+<line x1="200" y1="540" x2="1000" y2="540" stroke="black"/>
+<polygon fill="black" points="1000,540 990,546 990,534"/>
+<polygon fill="white" points="536,530 662,530 662,539 536,539"/>
+<text x="537" y="539" textLength="124" font-family="Helvetica" font-size="12" fill="black">
+Please create a record.
+</text>
+<line x1="200" y1="557" x2="200" y2="585" stroke="black"/>
+<line x1="600" y1="557" x2="600" y2="585" stroke="black"/>
+<line x1="1000" y1="557" x2="1000" y2="585" stroke="black"/>
+<path d="M 1000 562 A200,6 0 0,1 1000,574" stroke="black" fill="none"/><polygon fill="black" points="1000,574 1010,580 1010,568"/>
+<polygon fill="white" points="726,558 998,558 998,567 726,567"/>
+<text x="727" y="567" textLength="270" font-family="Helvetica" font-size="12" fill="black">
+Okay, I'll create the record and save it in database.
+</text>
+<line x1="200" y1="585" x2="200" y2="613" stroke="black"/>
+<line x1="600" y1="585" x2="600" y2="613" stroke="black"/>
+<line x1="1000" y1="585" x2="1000" y2="613" stroke="black"/>
+<line x1="1000" y1="596" x2="200" y2="596" stroke="black"/>
+<polygon fill="black" points="200,596 210,602 210,590"/>
+<polygon fill="white" points="490,586 709,586 709,595 490,595"/>
+<text x="491" y="595" textLength="217" font-family="Helvetica" font-size="12" fill="black">
+Hey, I created the record. (JSON Object)
+</text>
+<line x1="200" y1="613" x2="200" y2="630" stroke="black"/>
+<line x1="600" y1="613" x2="600" y2="630" stroke="black"/>
+<line x1="1000" y1="613" x2="1000" y2="630" stroke="black"/>
+<line x1="200" y1="630" x2="200" y2="647" stroke="black"/>
+<line x1="600" y1="630" x2="600" y2="647" stroke="black"/>
+<line x1="1000" y1="630" x2="1000" y2="647" stroke="black"/>
+<line x1="200" y1="647" x2="200" y2="664" stroke="black"/>
+<line x1="600" y1="647" x2="600" y2="664" stroke="black"/>
+<line x1="1000" y1="647" x2="1000" y2="664" stroke="black"/>
+<line x1="100" y1="652" x2="1100" y2="652" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="553,648 646,648 646,657 553,657"/>
+<text x="554" y="657" textLength="91" font-family="Helvetica" font-size="12" fill="black">
+Update a Record
+</text>
+<line x1="200" y1="664" x2="200" y2="681" stroke="black"/>
+<line x1="600" y1="664" x2="600" y2="681" stroke="black"/>
+<line x1="1000" y1="664" x2="1000" y2="681" stroke="black"/>
+<line x1="200" y1="681" x2="200" y2="709" stroke="black"/>
+<line x1="600" y1="681" x2="600" y2="709" stroke="black"/>
+<line x1="1000" y1="681" x2="1000" y2="709" stroke="black"/>
+<line x1="200" y1="692" x2="1000" y2="692" stroke="black"/>
+<polygon fill="black" points="1000,692 990,698 990,686"/>
+<polygon fill="white" points="530,682 669,682 669,691 530,691"/>
+<text x="531" y="691" textLength="137" font-family="Helvetica" font-size="12" fill="black">
+Please update the record.
+</text>
+<line x1="200" y1="709" x2="200" y2="737" stroke="black"/>
+<line x1="600" y1="709" x2="600" y2="737" stroke="black"/>
+<line x1="1000" y1="709" x2="1000" y2="737" stroke="black"/>
+<path d="M 1000 714 A200,6 0 0,1 1000,726" stroke="black" fill="none"/><polygon fill="black" points="1000,726 1010,732 1010,720"/>
+<polygon fill="white" points="723,710 998,710 998,719 723,719"/>
+<text x="724" y="719" textLength="273" font-family="Helvetica" font-size="12" fill="black">
+Okay, I'll update the record and save it in database.
+</text>
+<line x1="200" y1="737" x2="200" y2="765" stroke="black"/>
+<line x1="600" y1="737" x2="600" y2="765" stroke="black"/>
+<line x1="1000" y1="737" x2="1000" y2="765" stroke="black"/>
+<line x1="1000" y1="748" x2="200" y2="748" stroke="black"/>
+<polygon fill="black" points="200,748 210,754 210,742"/>
+<polygon fill="white" points="488,738 710,738 710,747 488,747"/>
+<text x="489" y="747" textLength="220" font-family="Helvetica" font-size="12" fill="black">
+Hey, I updated the record. (JSON Object)
+</text>
+<line x1="200" y1="765" x2="200" y2="782" stroke="black"/>
+<line x1="600" y1="765" x2="600" y2="782" stroke="black"/>
+<line x1="1000" y1="765" x2="1000" y2="782" stroke="black"/>
+<line x1="200" y1="782" x2="200" y2="799" stroke="black"/>
+<line x1="600" y1="782" x2="600" y2="799" stroke="black"/>
+<line x1="1000" y1="782" x2="1000" y2="799" stroke="black"/>
+<line x1="200" y1="799" x2="200" y2="816" stroke="black"/>
+<line x1="600" y1="799" x2="600" y2="816" stroke="black"/>
+<line x1="1000" y1="799" x2="1000" y2="816" stroke="black"/>
+<line x1="100" y1="804" x2="1100" y2="804" stroke="black" stroke-dasharray="2,2"/>
+<polygon fill="white" points="555,800 644,800 644,809 555,809"/>
+<text x="556" y="809" textLength="87" font-family="Helvetica" font-size="12" fill="black">
+Delete a Record
+</text>
+<line x1="200" y1="816" x2="200" y2="833" stroke="black"/>
+<line x1="600" y1="816" x2="600" y2="833" stroke="black"/>
+<line x1="1000" y1="816" x2="1000" y2="833" stroke="black"/>
+<line x1="200" y1="833" x2="200" y2="861" stroke="black"/>
+<line x1="600" y1="833" x2="600" y2="861" stroke="black"/>
+<line x1="1000" y1="833" x2="1000" y2="861" stroke="black"/>
+<line x1="200" y1="844" x2="1000" y2="844" stroke="black"/>
+<polygon fill="black" points="1000,844 990,850 990,838"/>
+<polygon fill="white" points="532,834 667,834 667,843 532,843"/>
+<text x="533" y="843" textLength="133" font-family="Helvetica" font-size="12" fill="black">
+Please delete the record.
+</text>
+<line x1="200" y1="861" x2="200" y2="889" stroke="black"/>
+<line x1="600" y1="861" x2="600" y2="889" stroke="black"/>
+<line x1="1000" y1="861" x2="1000" y2="889" stroke="black"/>
+<path d="M 1000 866 A200,6 0 0,1 1000,878" stroke="black" fill="none"/><polygon fill="black" points="1000,878 1010,884 1010,872"/>
+<polygon fill="white" points="773,862 998,862 998,871 773,871"/>
+<text x="774" y="871" textLength="223" font-family="Helvetica" font-size="12" fill="black">
+Okay, I'll delete the record from database.
+</text>
+<line x1="200" y1="889" x2="200" y2="917" stroke="black"/>
+<line x1="600" y1="889" x2="600" y2="917" stroke="black"/>
+<line x1="1000" y1="889" x2="1000" y2="917" stroke="black"/>
+<line x1="1000" y1="900" x2="200" y2="900" stroke="black"/>
+<polygon fill="black" points="200,900 210,906 210,894"/>
+<polygon fill="white" points="490,890 708,890 708,899 490,899"/>
+<text x="491" y="899" textLength="216" font-family="Helvetica" font-size="12" fill="black">
+Hey, I deleted the record. (JSON Object)
+</text>
+<line x1="200" y1="917" x2="200" y2="934" stroke="black"/>
+<line x1="600" y1="917" x2="600" y2="934" stroke="black"/>
+<line x1="1000" y1="917" x2="1000" y2="934" stroke="black"/>
+<line x1="200" y1="934" x2="200" y2="951" stroke="black"/>
+<line x1="600" y1="934" x2="600" y2="951" stroke="black"/>
+<line x1="1000" y1="934" x2="1000" y2="951" stroke="black"/>
+<line x1="200" y1="945" x2="200" y2="951" stroke="black"/>
+<line x1="600" y1="945" x2="600" y2="951" stroke="black"/>
+<line x1="1000" y1="945" x2="1000" y2="951" stroke="black"/>
+</svg>
