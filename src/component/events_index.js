@@ -6,7 +6,6 @@ import { readEvents } from "../actions";
 class EventsIndex extends Component {
 
   componentDidMount() {
-    console.log("Hi")
     this.props.readEvents()
   }
 
