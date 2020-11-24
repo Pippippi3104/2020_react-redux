@@ -12,7 +12,7 @@ class EventsIndex extends Component {
 
   renderEvents() {
     return _.map(this.props.events, event => (
-      <tr>
+      <tr key={ event.id }>
         <td>{ event.id }</td>
         <td>{ event.title }</td>
         <td>{ event.body }</td>
@@ -21,8 +21,6 @@ class EventsIndex extends Component {
   }
 
   render() {
-    const props = this.props;
-
     return (
       <table>
         <thead>
