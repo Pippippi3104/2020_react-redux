@@ -1,11 +1,12 @@
+import _ from "lodash";
 import { READ_EVENTS } from "../actions";
 
 // eslint-disable-next-line
-export default (state = {}, actions) => {
-    switch (actions.type) {
+export default (events = {}, action) => {
+    switch (action.type) {
         case READ_EVENTS:
-            return state
+            return _.mapKeys(action.response.data, "id");
         default:
-            return state
+            return events;
     }
 }
