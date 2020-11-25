@@ -38,6 +38,9 @@ class EventsNew extends Component {
 const validate = values => {
   const errors = {};
 
+  if (!values.title) errors.title = "Enter a title, please."
+  if (!values.body) errors.body = "Enter a body, please."
+
   return errors;
 }
 
