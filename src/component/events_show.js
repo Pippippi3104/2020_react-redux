@@ -7,6 +7,7 @@ import { getEvent, deleteEvent, putEvent } from "../actions";
 
 class EventsShow extends Component {
   constructor(props) {
+    console.log("EventsShow");
     super(props);
     this.onSubmit = this.onSubmit.bind(this);
   }
