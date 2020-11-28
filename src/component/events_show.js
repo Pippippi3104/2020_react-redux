@@ -9,6 +9,7 @@ class EventsShow extends Component {
   constructor(props) {
     super(props);
     this.onSubmit = this.onSubmit.bind(this);
+    this.onDeleteClick = this.onDeleteClick.bind(this);
   }
 
   renderField(field) {
@@ -19,6 +20,12 @@ class EventsShow extends Component {
       <input {...input} placeholder={label} type={type} />
       {touched && error && <span>{error}</span>}
     </div>)
+  }
+
+  async onDeleteClick() {
+    console.log(this.props.match)
+    //await this.props.deleteEvent(id)
+    this.props.history.push("/")
   }
 
   async onSubmit(values) {
@@ -41,6 +48,7 @@ class EventsShow extends Component {
         <div>
           <input type="submit" value="Submit" disabled={pristine || submitting} />
           <Link to="/" >Cancel</Link>
+          <Link to="/" onClick={this.onDeleteClick} >Delete</Link>
         </div>
       </form>
     )
