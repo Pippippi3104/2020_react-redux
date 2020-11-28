@@ -23,7 +23,7 @@ class EventsShow extends Component {
   }
 
   async onDeleteClick() {
-    const { id } = this.props.match.patams;
+    const { id } = this.props.match.params;
     await this.props.deleteEvent(id)
     this.props.history.push("/")
   }
