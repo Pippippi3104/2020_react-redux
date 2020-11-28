@@ -24,8 +24,6 @@ class EventsShow extends Component {
 
   async onDeleteClick() {
     const { id } = this.props.match.patams;
-    console.log(id)
-    
     await this.props.deleteEvent(id)
     this.props.history.push("/")
   }
@@ -66,6 +64,6 @@ const validate = values => {
   return errors;
 }
 
-//const mapDispatchToProps = ({ postEvent });
+const mapDispatchToProps = ({ deleteEvent });
 
-export default connect(null, null)(reduxForm({ validate, form: "eventShowForm" })(EventsShow));
+export default connect(null, mapDispatchToProps)(reduxForm({ validate, form: "eventShowForm" })(EventsShow));
