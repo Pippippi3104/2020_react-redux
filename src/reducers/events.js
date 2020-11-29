@@ -9,7 +9,9 @@ import {
 export default (events = {}, action) => {
     switch (action.type) {
         case READ_EVENT:
-            console.log(action);
+            console.log(action.response.data);
+            const data = action.response.data;
+            return {...events, [data.id]: data };
         case READ_EVENTS:
             return _.mapKeys(action.response.data, "id");
         case DELETE_EVENTS:
