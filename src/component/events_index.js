@@ -24,21 +24,24 @@ class EventsIndex extends Component {
 
   renderEvents() {
     return _.map(this.props.events, event => (
-      <tr key={ event.id }>
-        <td>{ event.id }</td>
-        <td>
+      <TableRow key={ event.id }>
+        <TableRowColumn>{ event.id }</TableRowColumn>
+        <TableRowColumn>
           <Link to={"/events/" + event.id }>
            { event.title }
           </Link>
-        </td>
-        <td>{ event.body }</td>
-      </tr>
+        </TableRowColumn>
+        <TableRowColumn>{ event.body }</TableRowColumn>
+      </TableRow>
     ))
   }
 
   render() {
     return (
       <React.Fragment>
+        <FloatingActionButton containerElement={<Link to="events/new" />}>
+        </FloatingActionButton>
+
         <Table>
           <TableHeader
             displaySelectAll={false}
@@ -51,12 +54,10 @@ class EventsIndex extends Component {
             </TableRow>
           </TableHeader>
 
-          <TableBody>
+          <TableBody displayRowCheckbox={false}>
             {this.renderEvents()}
           </TableBody>
         </Table>
-
-        <Link to="/events/new">New Event</Link>
       </React.Fragment>
     )
   }
