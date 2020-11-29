@@ -40,7 +40,10 @@ class EventsIndex extends Component {
     return (
       <React.Fragment>
         <Table>
-          <TableHeader>
+          <TableHeader
+            displaySelectAll={false}
+            adjustForCheckbox={false}
+          >
             <TableRow>
               <TableHeaderColumn>ID</TableHeaderColumn>
               <TableHeaderColumn>Title</TableHeaderColumn>
