@@ -2,6 +2,7 @@ import _ from "lodash";
 import { 
     READ_EVENTS,
     READ_EVENT,
+    UPDATE_EVENTS,
     DELETE_EVENTS,
  } from "../actions";
 
@@ -9,6 +10,7 @@ import {
 export default (events = {}, action) => {
     switch (action.type) {
         case READ_EVENT:
+        case UPDATE_EVENTS:
             const data = action.response.data;
             return {...events, [data.id]: data };
         case READ_EVENTS:

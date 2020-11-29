@@ -2,6 +2,7 @@ import axios from "axios";
 export const READ_EVENTS = "READ_EVENTS";
 export const READ_EVENT = "READ_EVENT";
 export const CREATE_EVENT = "CREATE_EVENTS";
+export const UPDATE_EVENTS = "UPDATE_EVENTS";
 export const DELETE_EVENTS = "DELETE_EVENTS";
 
 const ROOT_URL = "https://udemy-utils.herokuapp.com/api/v1";
@@ -18,6 +19,12 @@ export const postEvent = values => async dispatch => {
     console.log(response)
     dispatch({ type: CREATE_EVENT, response })
 };
+
+export const putEvent = values => async dispatch => {
+    console.log(values);
+    //const response = await axios.put(ROOT_URL + "/events/" + id + QUERYSTRING, values);
+    //dispatch({ type: UPDATE_EVENTS, response });
+}
 
 export const getEvent = id => async dispatch => {
     const response = await axios.get(ROOT_URL + "/events/" + id + QUERYSTRING);
