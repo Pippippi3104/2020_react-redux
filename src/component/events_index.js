@@ -39,19 +39,19 @@ class EventsIndex extends Component {
   render() {
     return (
       <React.Fragment>
-        <table>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Title</th>
-              <th>Body</th>
-            </tr>
-          </thead>
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHeaderColumn>ID</TableHeaderColumn>
+              <TableHeaderColumn>Title</TableHeaderColumn>
+              <TableHeaderColumn>Body</TableHeaderColumn>
+            </TableRow>
+          </TableHeader>
 
-          <tbody>
+          <TableBody>
             {this.renderEvents()}
-          </tbody>
-        </table>
+          </TableBody>
+        </Table>
 
         <Link to="/events/new">New Event</Link>
       </React.Fragment>
